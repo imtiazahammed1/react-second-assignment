@@ -5,8 +5,15 @@
     border-radius: 10px;
     position: relative;
 }
+
 .product img{
     width: 286px;
     height: 286px;
     margin: 7px;
+}
+.product-info{
+    margin: 0 14px;
+}
+.product-info h3{
+    margin-bottom: 0;
 }
