@@ -10,6 +10,9 @@ const Product = (props) => {
                 <h3>{name}</h3>
                 <p>Price: ${price}</p>
             </div>
+            <button className='btn-cart'>
+                <p>Add to Cart</p>
+            </button>
         </div>
     );
 };
