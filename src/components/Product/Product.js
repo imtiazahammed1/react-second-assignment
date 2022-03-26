@@ -10,8 +10,8 @@ const Product = (props) => {
                 <h3>{name}</h3>
                 <p>Price: ${price}</p>
             </div>
-            <button className='btn-cart'>
-                <p>Add to Cart</p>
+            <button onClick={() => props.handleAddToCart(props.product)} className='btn-cart'>
+                <p className='btn-info'>Add to Cart</p>
             </button>
         </div>
     );
